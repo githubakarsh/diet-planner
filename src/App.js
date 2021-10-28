@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { UseHelmet } from "./hooks/UseHelmet";
+import { HeaderComponent } from './components/header/HeaderComponent';
+import { UseApiCaller } from './hooks/UseApiCaller';
+import { GET } from "./constants/Constants";
 
-function App() {
+const App = () => {
+  UseHelmet("Diet Planner for You");
+  const getFoodData = UseApiCaller('food', GET);
+
+  console.log(getFoodData, "from app");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <HeaderComponent />
+      <main>Main here</main>
+      <footer>Footer here</footer>
     </div>
   );
 }

@@ -1,0 +1,34 @@
+{
+    "food" : {
+        "vegetables" : {
+            "leafy" : [
+                { "name" : "spinach", "quantity" : "100", "units" : "grams" },
+                { "name" : "coriender", "quantity" : "100", "units" : "grams" },
+                { "name" : "Fenu Greek", "quantity" : "100", "units" : "grams" }
+            ],
+            "roots" : [
+                { "name" : "potatoes", "quantity" : "1000", "units" : "grams" },
+                { "name" : "carot", "quantity" : "1000", "units" : "grams" },
+                { "name" : "beetroot", "quantity" : "100", "units" : "grams" },
+                { "name" : "ginger", "quantity" : "100", "units" : "grams" },
+                { "name" : "garlic", "quantity" : "100", "units" : "grams" },
+                { "name" : "ground nuts", "quantity" : "100", "units" : "grams" }
+            ],
+            "trees" : [
+                { "name" : "tomatoes", "quantity" : "100", "units" : "grams" },
+                { "name" : "lady fingers", "quantity" : "100", "units" : "grams" },
+                { "name" : "capsicum", "quantity" : "100", "units" : "grams" },
+                { "name" : "green chillies", "quantity" : "100", "units" : "grams" },
+                { "name" : "cabbage", "quantity" : "100", "units" : "grams" },
+                { "name" : "cauli flower", "quantity" : "100", "units" : "grams" },
+                { "name" : "celery", "quantity" : "100", "units" : "grams" },
+                { "name" : "spinach", "quantity" : "100", "units" : "grams" },
+                { "name" : "brocoli", "quantity" : "100", "units" : "grams" },
+                { "name" : "green peas", "quantity" : "100", "units" : "grams" },
+                { "name" : "french beans", "quantity" : "100", "units" : "grams" }
+            ]
+        },
+        "nonVegetables" : [],
+        "diaryProducts" : []
+    }
+}
