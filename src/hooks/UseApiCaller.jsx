@@ -30,7 +30,7 @@ export const UseApiCaller = (endpointName, method, headers ) => {
         } catch (error) {
 
         } finally {
-            console.log("get food api call ended");
+            console.log("API call ended");
         }
 
         
