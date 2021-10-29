@@ -19,7 +19,7 @@ export const UseApiCaller = (endpointName, method, headers ) => {
                 {method : method})
             .then(response => response.json())
             .then(data => {
-                setResponse(JSON.stringify(data));
+                setResponse(data);
                 console.log(JSON.stringify(data));
                 setLoader(false);
             })
